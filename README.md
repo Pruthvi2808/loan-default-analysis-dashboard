@@ -98,6 +98,8 @@ Dashboard includes:
 * Default Rate by Employment Type
 * Average Loan Amount by Age Group
 * Default Rate by Year
+  
+![Dashboard Page 1](Dashboard_Screenshots/Page1.png)
 
 ---
 
@@ -111,6 +113,8 @@ Dashboard includes:
 * Loan Distribution by Dependents
 * Number of Loans by Education Level
 
+![Dashboard Page 1](Dashboard_Screenshots/Page2.png)
+
 ---
 
 ## Page 3 - Financial Risk Metrics
@@ -121,6 +125,8 @@ Dashboard includes:
 * YoY Default Loan Growth
 * Credit Score vs Marital Status Analysis
 * Income Bracket Analysis using Decomposition Tree
+
+![Dashboard Page 1](Dashboard_Screenshots/Page3.png)
 
 ---
 
