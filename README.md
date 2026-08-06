@@ -120,7 +120,7 @@ Dashboard includes:
 
 ---
 
-# 📊 Dashboard Highlights
+# 📊 Dashboard Metrics
 
 The dashboard provides analysis of:
 
