@@ -2,15 +2,15 @@
 
 ## 📌 Project Overview
 
-The Loan Default Analysis Dashboard is an interactive Business Intelligence solution developed using Power BI, SQL Server, Power Query, DAX, and Microsoft Excel. The project analyzes 255,347 loan records across 19 attributes to evaluate loan performance, borrower demographics, credit risk, and default trends through interactive dashboards, data visualization, and KPI-driven reporting.
+The Loan Default Analysis Dashboard is an interactive Business Intelligence solution built using Power BI, SQL, Power Query, DAX, and Microsoft Excel. The project analyzes 255,347 loan records across 19 attributes to evaluate loan performance, borrower demographics, credit risk, and default trends through interactive dashboards and KPI-driven reporting.
 
 ---
 
 # 🎯 Problem Statement
 
-Financial institutions generate large volumes of loan data that require continuous analysis to understand borrower behavior, monitor loan performance, and identify potential default trends. Manual analysis is time-consuming and often fails to provide timely business insights.
+Financial institutions generate large volumes of loan data that require continuous analysis to understand borrower behavior, monitor loan performance, and identify potential default trends. Manual analysis is time-consuming and often fails to provide timely insights.
 
-This dashboard addresses these challenges by providing an interactive platform to analyze:
+This dashboard addresses that by providing an interactive platform to analyze:
 
 * Loan Distribution
 * Borrower Demographics
@@ -21,8 +21,6 @@ This dashboard addresses these challenges by providing an interactive platform t
 * Financial Risk Metrics
 * Year-over-Year Loan Growth
 
-The dashboard helps organizations improve lending strategies and credit risk assessment through data-driven decision-making.
-
 ---
 
 # 📂 Dataset Information
@@ -30,8 +28,8 @@ The dashboard helps organizations improve lending strategies and credit risk ass
 | Attribute | Details              |
 | --------- | -------------------- |
 | Dataset   | Loan Default Dataset |
-| Records   | **255,347**          |
-| Columns   | **19**               |
+| Records   | 255,347          |
+| Columns   | 19               |
 | File Type | CSV                  |
 
 ---
@@ -39,7 +37,7 @@ The dashboard helps organizations improve lending strategies and credit risk ass
 # 🛠 Technologies Used
 
 * Power BI Desktop
-* SQL Server Management Studio (SSMS)
+* SQL
 * Power Query
 * DAX
 * Microsoft Excel
@@ -49,11 +47,9 @@ The dashboard helps organizations improve lending strategies and credit risk ass
 # 🔄 Project Workflow
 
 ### Step 1
-
-Imported the Loan Default dataset (CSV) into SQL Server for data cleaning, preprocessing, and analysis.
+Imported the Loan Default dataset (CSV) and loaded it for cleaning and analysis using SQL.
 
 ### Step 2
-
 Performed data cleaning and validation using SQL by checking for:
 
 * Missing values
@@ -62,27 +58,21 @@ Performed data cleaning and validation using SQL by checking for:
 * Data inconsistencies
 
 ### Step 3
-
 Imported the cleaned dataset into Power BI Desktop.
 
 ### Step 4
-
 Used Power Query to perform data transformation, data type validation, and data modeling before creating the Power BI dashboard.
 
 ### Step 5
-
 Enabled Column Quality, Column Distribution, and Column Profile in Power Query to assess data quality and identify missing values, duplicate records, and data inconsistencies.
 
 ### Step 6
-
-Created calculated columns, DAX measures, and KPIs to support business analysis and interactive reporting.
+Created calculated columns, DAX measures, and KPIs to support the analysis and interactive reporting.
 
 ### Step 7
-
 Developed a three-page interactive Power BI dashboard featuring KPIs, slicers, drill-through navigation, and interactive visualizations for loan performance and borrower analysis.
 
 ### Step 8
-
 Published the report to Power BI Service.
 
 ---
@@ -98,7 +88,7 @@ Dashboard includes:
 * Default Rate by Employment Type
 * Average Loan Amount by Age Group
 * Default Rate by Year
-  
+
 ![Dashboard Page 1](Dashboard_Screenshots/Page1.png)
 
 ---
@@ -113,7 +103,7 @@ Dashboard includes:
 * Loan Distribution by Dependents
 * Number of Loans by Education Level
 
-![Dashboard Page 1](Dashboard_Screenshots/Page2.png)
+![Dashboard Page 2](Dashboard_Screenshots/Page2.png)
 
 ---
 
@@ -126,7 +116,7 @@ Dashboard includes:
 * Credit Score vs Marital Status Analysis
 * Income Bracket Analysis using Decomposition Tree
 
-![Dashboard Page 1](Dashboard_Screenshots/Page3.png)
+![Dashboard Page 3](Dashboard_Screenshots/Page3.png)
 
 ---
 
@@ -144,30 +134,11 @@ Dashboard includes:
 
 # 📉 Key Insights
 
-### Loan Purpose Analysis
-
-Analyzed loan distribution across different loan purposes to understand borrower demand and lending patterns.
-
-### Employment Analysis
-
-Compared average income and default rates across employment categories to understand borrower profiles and lending patterns.
-
-### Credit Score Analysis
-
-Evaluated total and median loan amounts across different credit score categories to assess borrower creditworthiness.
-
-### Borrower Demographics
-
-Analyzed borrower characteristics based on:
-
-* Age Group
-* Education Level
-* Marital Status
-* Number of Dependents
-
-### Financial Risk Analysis
-
-Tracked Year-over-Year Loan Growth and Default Loan Growth to evaluate lending performance and portfolio risk.
+* **Employment status is a strong default predictor** — unemployed borrowers defaulted at 13.55%, nearly 4 points higher than full-time employed borrowers (9.46%).
+* **Default rate falls as education level rises** — from 12.88% (High School) down to 10.59% (PhD), a consistent step-down across every education tier.
+* **A co-signer meaningfully reduces risk** — default rate drops from 12.87% (no co-signer) to 10.36% (with a co-signer).
+* **Borrowers with both a mortgage and dependents default least** (9.79%), likely reflecting greater financial stability and stake in repayment.
+* **Loan purpose does not meaningfully affect volume** — total loan amount was evenly distributed (~$6.5B each) across Home, Business, Education, Auto, and Other, making it a weak standalone risk signal.
 
 ---
 
@@ -178,42 +149,23 @@ Tracked Year-over-Year Loan Growth and Default Loan Growth to evaluate lending p
 * Cross-filtering between visuals
 * Dynamic DAX Measures
 * Multiple Chart Types
-* Responsive Dashboard Design
-* Business-Oriented KPI Reporting
+* Decomposition Tree Analysis
 
 ---
 
 # 📚 Skills Demonstrated
 
-* Data Cleaning
-* Data Validation
-* Data Transformation
+* Data Cleaning & Validation
 * SQL Querying
-* Data Modeling
-* Power Query
+* Power Query (Data Transformation & Data Modeling)
 * DAX
-* Dashboard Development
-* Business Intelligence
-* Data Visualization
 * KPI Development
+* Dashboard Development
+* Data Visualization
 * Credit Risk Analysis
-* Interactive Reporting
-
----
-
-# 🚀 Business Impact
-
-* Improved visibility into loan performance and borrower behavior.
-* Enabled interactive analysis of loan performance and borrower characteristics across multiple demographic and financial segments.
-* Supported credit risk assessment through demographic and financial analysis.
-* Simplified reporting using automated KPIs and interactive dashboards.
-* Facilitated data-driven lending decisions for financial institutions.
 
 ---
 
 # 📌 Conclusion
 
-The Loan Default Analysis Dashboard provides a comprehensive view of lending performance, borrower demographics, and financial risk using 
-interactive visualizations and KPI-driven reporting. By combining SQL Server, Power BI, Power Query, and DAX, the dashboard enables financial 
-institutions to monitor loan portfolios, analyze borrower trends, evaluate credit risk, and support data-driven lending decisions.
-
+This project is a self-directed portfolio exercise analyzing 255,347 loan records to practice end-to-end BI workflow — from data cleaning and modeling in SQL/Power Query to building an interactive, risk-focused Power BI dashboard. It demonstrates the ability to identify default risk drivers (employment, education, co-signer status) and communicate them clearly using SQL, Power Query, and DAX.
