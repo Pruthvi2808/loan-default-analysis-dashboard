@@ -73,7 +73,7 @@ Created calculated columns and DAX measures to support business analysis and int
 Developed a **3-page interactive Power BI dashboard** featuring business metrics, slicers, drill-through navigation, and interactive visualizations.
 
 ### Step 8
-Published the report to **Power BI Service**.
+Developed a 3-page interactive Power BI dashboard featuring business metrics, slicers, drill-through navigation, and interactive visualizations.
 
 ---
 
@@ -136,7 +136,7 @@ The dashboard provides analysis of:
 
 # 📉 Key Insights
 
-- Employment status is a strong predictor of loan default, with unemployed borrowers showing the highest default rate.
+- Employment status is strongly associated with loan default, with unemployed borrowers showing the highest default rate.
 - Borrowers with higher education levels consistently demonstrate lower default rates.
 - Loans with a co-signer exhibit a significantly lower default rate than those without a co-signer.
 - Borrowers with both a mortgage and dependents show the lowest default risk.
